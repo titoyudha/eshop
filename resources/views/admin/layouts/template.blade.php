@@ -113,9 +113,9 @@
                 <ul class="menu-inner py-1">
                     <!-- Dashboard -->
                     <li class="menu-item active">
-                        <a href="index.html" class="menu-link">
+                        <a href="{{ route('/admindashboard') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                            <div data-i18n="Analytics">Dashboard</div>
+                            <div data-i18n="Analytics">Sub Category</div>
                         </a>
                     </li>
 
@@ -123,63 +123,57 @@
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-layout"></i>
-                            <div data-i18n="Layouts">Layouts</div>
+                            <div data-i18n="Layouts">Add Sub Category</div>
                         </a>
 
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="layouts-without-menu.html" class="menu-link">
-                                    <div data-i18n="Without menu">Without menu</div>
+                                <a href="{{ route('/addcategory') }}" class="menu-link">
+                                    <div data-i18n="Without menu">Add Category</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="layouts-without-navbar.html" class="menu-link">
-                                    <div data-i18n="Without navbar">Without navbar</div>
+                                <a href="{{ route('/allcategory') }}" class="menu-link">
+                                    <div data-i18n="Without navbar"> All Category</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="layouts-container.html" class="menu-link">
-                                    <div data-i18n="Container">Container</div>
+                                <a href="{{ route('/allsubcategory') }}" class="menu-link">
+                                    <div data-i18n="Without menu">All Sub Category</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="layouts-fluid.html" class="menu-link">
-                                    <div data-i18n="Fluid">Fluid</div>
+                                <a href="{{ route('/addsubcategory') }}" class="menu-link">
+                                    <div data-i18n="Without navbar">Add Sub Category</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="layouts-blank.html" class="menu-link">
-                                    <div data-i18n="Blank">Blank</div>
+                                <a href="{{ route('/addproduct') }}" class="menu-link">
+                                    <div data-i18n="Container">Add Product</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{ route('/allproduct') }}" class="menu-link">
+                                    <div data-i18n="Fluid">All Product</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="{{ route('/pendingorders') }}" class="menu-link">
+                                    <i class="menu-icon tf-icon bx bx-home-circle"></i>
+                                    <div data-i18n="Blank">Pending Orders</div>
                                 </a>
                             </li>
                         </ul>
                     </li>
 
                     <li class="menu-header small text-uppercase">
-                        <span class="menu-header-text">Pages</span>
+                        <span class="menu-header-text">Orders</span>
                     </li>
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                            <div data-i18n="Account Settings">Account Settings</div>
+                            <div data-i18n="Account Settings">Pending Orders</div>
                         </a>
-                        <ul class="menu-sub">
-                            <li class="menu-item">
-                                <a href="pages-account-settings-account.html" class="menu-link">
-                                    <div data-i18n="Account">Account</div>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="pages-account-settings-notifications.html" class="menu-link">
-                                    <div data-i18n="Notifications">Notifications</div>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="pages-account-settings-connections.html" class="menu-link">
-                                    <div data-i18n="Connections">Connections</div>
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
